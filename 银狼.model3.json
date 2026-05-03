@@ -1,0 +1,56 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "银狼.moc3",
+		"Textures": [
+			"银狼.4096/texture_00.png",
+			"银狼.4096/texture_01.png",
+			"银狼.4096/texture_02.png",
+			"银狼.4096/texture_03.png",
+			"银狼.4096/texture_04.png"
+		],
+		"Physics": "银狼.physics3.json",
+		"DisplayInfo": "银狼.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "变身",
+				"File": "Motions/变身动画1.motion3.json"
+			},
+			{
+				"Name": "变身2",
+				"File": "Motions/变身动画2.motion3.json"
+			},
+			{
+				"Name": "循环",
+				"File": "Motions/循环动画.motion3.json"
+			},
+			{
+				"Name": "睡觉",
+				"File": "Motions/睡觉动画.motion3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"Name": "银狼",
+	"Saliency": {
+		"Center": {
+			"X": 0,
+			"Y": 0.3
+		},
+		"Radius": 1.5
+	}
+}
