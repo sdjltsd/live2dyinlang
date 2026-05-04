@@ -77,7 +77,7 @@
 	}, {
 		"selector": "a[href^='mailto']",
 		"text": ["邮件消息我会及时查看的", "点击就能发送邮件联络"]
-	}, 
+	}, {
 		"selector": "a[href^='/tags/']",
 		"text": ["要进入 <span>{text}</span> 标签页面吗？", "点开就能浏览这个标签下的全部文章"]
 	}, {
