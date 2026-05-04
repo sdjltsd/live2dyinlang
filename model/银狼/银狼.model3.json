@@ -11,24 +11,25 @@
 		],
 		"Physics": "银狼.physics3.json",
 		"DisplayInfo": "银狼.cdi3.json",
-		"Expressions": [
-			{
-				"Name": "变身",
-				"File": "Motions/变身动画1.motion3.json"
-			},
-			{
-				"Name": "变身2",
-				"File": "Motions/变身动画2.motion3.json"
-			},
-			{
-				"Name": "循环",
-				"File": "Motions/循环动画.motion3.json"
-			},
-			{
-				"Name": "睡觉",
-				"File": "Motions/睡觉动画.motion3.json"
-			}
-		]
+		"Motions": {
+			"Idle": [
+				{
+					"File": "Motions/循环动画.motion3.json"
+				},
+				{
+					"File": "Motions/睡觉动画.motion3.json"
+				}
+			],
+			"TapBody": [
+				{
+					"File": "Motions/变身动画1.motion3.json"
+				},
+				{
+					"File": "Motions/变身动画2.motion3.json"
+				}
+			]
+		},
+		"Expressions": []
 	},
 	"Groups": [
 		{
