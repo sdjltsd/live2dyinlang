@@ -15,9 +15,6 @@
 			"Idle": [
 				{
 					"File": "Motions/循环动画.motion3.json"
-				},
-				{
-					"File": "Motions/睡觉动画.motion3.json"
 				}
 			],
 			"TapBody": [
@@ -26,6 +23,9 @@
 				},
 				{
 					"File": "Motions/变身动画2.motion3.json"
+				},
+				{
+					"File": "Motions/睡觉动画.motion3.json"
 				}
 			]
 		},
